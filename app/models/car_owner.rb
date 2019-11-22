@@ -17,7 +17,7 @@ class CarOwner
   end
 
   def self.average_amount_of_cars
-    average(@@all.map{|owner| owner.cars.length})
+    average(@@all.map{ |owner| owner.cars.length })
   end
 
   def self.all
